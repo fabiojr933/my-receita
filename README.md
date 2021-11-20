@@ -23,3 +23,7 @@ RewriteRule ^((?!public/).*)$ my-receitas/public/$1 [L,NC]
 ```
 
 Observe que na linha acima temos o caminho para a pasta public, definida como **my-receitas/public/**, sendo assim, troque o caminho **my-receitas** pelo nome da pasta do seu projeto. Obs. Caso esteja na root, remova o caminho **my-receitas**.
+
+Depois de fazer essas configurações na pasta do projte fazer 
+Composer update
+para baixar os arquivos necessarios 
